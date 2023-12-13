@@ -1,0 +1,88 @@
+// EMG
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"#HL2_AR3"
+	"viewmodel"		"models/weapons/v_ar3.mdl"
+	"playermodel"	"models/weapons/w_ar3.mdl"
+	"anim_prefix"	"ar2"
+
+	"bucket"				"2"
+	"bucket_position"		"2"
+	"bucket_360"			"3"
+	"bucket_position_360"	"1"
+
+	"clip_size"			"-1"
+	"default_clip"		"400"
+	"primary_ammo"		"ar3"
+	"secondary_ammo"	"None"
+
+	"autoswitchfrom"	"1"
+	"autoswitchto"		"1"
+
+	"weight"		"10"
+	"item_flags"	"126"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"special1"		"Weapon_AR3.PutDown"
+		"empty"			"Weapon_AR3.Empty"
+		"double_shot"	"Weapon_AR3.PickUp"
+		"single_shot"	"Weapon_AR3.Single"
+
+		// NPC SECTION
+		"single_shot_npc"	"Weapon_AR3.NPC_Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"font"		"WeaponIcons"
+			"character"	"Z"
+		}
+		"weapon_s"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"Z"
+		}
+		"weapon_small"
+		{
+			"font"		"HPH_HUD_PickupIcons"
+			"character"	"Z"
+		}
+		"ammo"
+		{
+			"font"		"HPH_HUD_PickupIcons"
+			"character"	"c"
+		}
+		"ammo2"
+		{
+			"font"		"HPH_HUD_PickupIcons"
+			"character"	"S"
+		}
+		"crosshair"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"N"
+		}
+		"zoom"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"N"
+		}
+		"autoaim"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"N"
+		}
+		"zoom_autoaim"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"N"
+		}
+	}
+}

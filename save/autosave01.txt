@@ -1,0 +1,7 @@
+"CustomSaveMetadata"
+{
+	"mapversion"		"811"
+	"map"		"at05_coldsignal"
+	"platform"		"windows"
+	"is_deck"		"0"
+}

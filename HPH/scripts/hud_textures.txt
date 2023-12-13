@@ -1,0 +1,204 @@
+"sprites/640_hud"
+{
+	TextureData
+	{
+		"arrow" [$WIN32]
+		{
+			"file"		"sprites/arrow"
+			"x"			"0"
+			"y"			"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"autoaim_c" [$WIN32]
+		{
+			"file"		"sprites/crosshairs"
+			"x"			"96"
+			"y"			"0"
+			"width"		"24"
+			"height"	"24"
+		}
+
+		"item_battery" [$WIN32]
+		{
+			"font"		"HPH_HUD_MainIcons_PickUp" // fixed WeaponIcons
+			"character"	"T" // fixed *
+		}
+
+		"item_healthkit" [$WIN32]
+		{
+			"font"		"HPH_HUD_MainIcons_PickUp" // fixed WeaponIcons
+			"character"	"S" // fixed +
+		}
+
+		"crosshair"
+		{
+			"file"		"sprites/qi_center"
+			"x"			"0"
+			"y"			"0"
+			"width"		"40"
+			"height"	"40"
+		}
+
+		"crosshair_left"
+		{
+			"font"		"QuickInfo"
+			"character"	"("
+		}
+
+		"crosshair_right"
+		{
+			"font"		"QuickInfo"
+			"character"	")"
+		}
+
+		"crosshair_left_full"
+		{
+			"font"		"QuickInfo"
+			"character"	"["
+		}
+
+		"crosshair_right_full"
+		{
+			"font"		"QuickInfo"
+			"character"	"]"
+		}
+
+		"crosshair_left_empty"
+		{
+			"font"		"QuickInfo"
+			"character"	"{"
+		}
+
+		"crosshair_right_empty"
+		{
+			"font"		"QuickInfo"
+			"character"	"}"
+		}
+
+		"crosshair_default"
+		{
+			"font"       "Crosshairs" // new
+			"character"  " " // new: this need to hide default texture based crosshair in spectator mode
+			// deleted "file"    "sprites/crosshairs"
+			// deleted "x"       "0"
+			// deleted "y"       "48"
+			// deleted "width"   "24"
+			// deleted "height"  "24"
+		}
+
+		"crosshair_xbox"
+		{
+			"file"		"vgui/hud/xbox_reticle"
+			"x"		"0"
+			"y"		"0"
+			"width"		"64"
+			"height"	"64"
+		}
+
+		"viewhair"
+		{
+			"file"		"sprites/hud/v_crosshair2"
+			"x"			"0"
+			"y"			"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"gunhair"
+		{
+			"file"		"sprites/hud/v_crosshair1"
+			"x"			"0"
+			"y"			"0"
+			"width"		"32"
+			"height"	"32"
+		}
+
+		"plushair"
+		{
+			"font"		"Crosshairs"
+			"character"	"Q"
+		}
+
+		"ico_friend_indicator"
+		{
+			// deleted "file"    "vgui/ico_friend_indicator_alone"
+			// deleted "x"       "0"
+			// deleted "y"       "0"
+			// deleted "width"   "32"
+			// deleted "height"  "32"
+		}
+
+		"ico_friend_indicator_avatar"
+		{
+			// deleted "file"    "vgui/ico_friend_indicator_scoreboard"
+			// deleted "x"       "-1"
+			// deleted "y"       "-1"
+			// deleted "width"   "57"
+			// deleted "height"  "36"
+		}
+
+
+		///////////////////////////////////////////////////////////////////
+		// HPH -> MMOD compatibility:                                    //
+		//                                                               //
+		// New Hit-Markers have been made in "HudLayout.res" so that     //
+		// their color and transparency can be controlled.               //
+		//                                                               //
+		// Hit-Markers from this file are disabled, but their definition //
+		// are still needed so that the MMOD doesn't crash.              //
+		///////////////////////////////////////////////////////////////////
+		"CrossbowScope"
+		{
+			"file"    "vgui/scopes/HL2MMod_Scopes_Crossbow"
+			"x"       "0"
+			"y"       "0"
+			"width"   "1024"
+			"height"  "1024"
+		}
+
+		"HitMarker" // Pistol, SMG, EMG
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+
+		"HitMarkerAR2"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+
+		"HitMarker357"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+
+		"HitMarkerShotgun"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+
+		"HitMarkerDot"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // unused in MMOD and disabled
+		}
+
+		"hl2mmod_suiticon"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+
+		"hl2mmod_healthicon"
+		{
+			"font"       "Default" // disabled
+			"character"  " " // disabled
+		}
+		///////////////////////////////////////////////////////////////////
+	}
+}

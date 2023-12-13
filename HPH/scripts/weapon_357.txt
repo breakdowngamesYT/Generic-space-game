@@ -1,0 +1,93 @@
+// 357
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"#HL2_357Handgun"
+	"viewmodel"		"models/weapons/v_357.mdl"
+	"playermodel"	"models/weapons/w_357.mdl"
+	"anim_prefix"	"python"
+
+	"bucket"				"1"
+	"bucket_position"		"1"
+	"bucket_360"			"0"
+	"bucket_position_360"	"1"
+
+	"clip_size"			"6"
+	"default_clip"		"6"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"		"7"
+	"rumble"		"2"
+	"item_flags"	"0"
+	"damage"		"75"
+
+	Ironsight
+	{
+		"forward"			"-3"
+		"right"				"0.4"
+		"up"				"0.6"
+		"roll"				"-3"
+		"pitch"				"-1.4"
+		"yaw"				"2"
+		"fov"				"-27"
+		"time"				"0.15"
+		"crosshair"			"1"
+		"chromatic"			"3.5"
+		"blur"				"1.0"
+		"trueironsights"	"0" // if true - when ironsighted: stops walking animation, less weapon turning lag, no hitmarkers.
+	}
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"empty"			"Weapon_Pistol.Empty"
+		"single_shot"	"Weapon_357.Single"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+			"font"		"WeaponIcons"
+			"character"	"E"
+		}
+		"weapon_s"
+		{
+			"font"		"WeaponIconsSelected"
+			"character"	"E"
+		}
+		"weapon_small"
+		{
+			"font"		"HPH_HUD_PickupIcons"
+			"character"	"E"
+		}
+		"ammo"
+		{
+			"font"		"HPH_HUD_PickupIcons"
+			"character"	"O"
+		}
+		"crosshair"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"E"
+		}
+		"zoom"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"E"
+		}
+		"autoaim"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"E"
+		}
+		"zoom_autoaim"
+		{
+			"font"		"HPH_HUD_AmmoIcons"
+			"character"	"E"
+		}
+	}
+}
