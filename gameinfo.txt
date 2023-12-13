@@ -1,0 +1,53 @@
+// Made with XBLAH's Modding tool.
+// Download it at https://modding-assets.net/items/source/tools/modding/xblah-modding-tool
+
+gameinfo
+{
+	game	"generic space game"
+	title	"generic space game"
+	title2	""
+	supportsvr	"0"
+	gamedata	"fgd/EntropyZero2.fgd"
+	type	"singleplayer_only"
+	icon	"resource/ez_icon"
+	filesystem
+	{
+		steamappid	"1583720"
+		searchpaths
+		{
+			game+mod+addon	"|gameinfo_path|custom/*"
+			game+mod+mod_write+default_write_path	"|gameinfo_path|."
+			game+mod+addon	"entropyzero2/custom/*"
+			game+mod+addon	"ep2/custom/*"
+			game+mod+addon	"episodic/custom/*"
+			game+mod+addon	"hl2/custom/*"
+                        gamebin	"|gameinfo_path|bin"
+			gamebin	"|all_source_engine_paths|entropyzero2/bin"
+			game+mod	"|all_source_engine_paths|entropyzero2/ez2/*"
+			gamebin	"|all_source_engine_paths|mapbase/episodic/bin"
+			game+mod	"|all_source_engine_paths|mapbase/episodic/*"
+			game+mod	"|all_source_engine_paths|mapbase/hl2/*"
+			game+mod	"|all_source_engine_paths|mapbase/css_weapons_in_hl2"
+			game+mod	"|all_source_engine_paths|mapbase/css_weapons_in_hl2/content/*"
+			game+mod	"|all_source_engine_paths|mapbase/shared/shared_content_v7_0.vpk"
+			game_lv	"hl2/hl2_lv.vpk"
+			game+mod	"ep2/ep2_english.vpk"
+			game+mod	"ep2/ep2_pak.vpk"
+			game	"|all_source_engine_paths|episodic/ep1_english.vpk"
+			game	"|all_source_engine_paths|episodic/ep1_pak.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_english.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_pak.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_textures.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_sound_misc.vpk"
+			game	"|all_source_engine_paths|hl2/hl2_misc.vpk"
+			platform	"|all_source_engine_paths|platform/platform_misc.vpk"
+			game+game_write	"ep2"
+			gamebin	"episodic/bin"
+			game	"|all_source_engine_paths|entropyzero2"
+			game	"|all_source_engine_paths|episodic"
+			game	"|all_source_engine_paths|hl2"
+			platform	"|all_source_engine_paths|platform"
+		}
+	}
+}
