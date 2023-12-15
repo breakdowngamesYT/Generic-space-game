@@ -1,7 +1,0 @@
-"CustomSaveMetadata"
-{
-	"mapversion"		"11"
-	"map"		"ez2_assassin_demo"
-	"platform"		"windows"
-	"is_deck"		"0"
-}
